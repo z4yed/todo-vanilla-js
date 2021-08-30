@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sumit Saha, Learn with Sumit" />
+    <meta name="description" content="We love JavaScript" />
+    <meta name="description" content="We love JavaScript" />
+    <title>DOM - Document Object Model</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h2>TO DO APPLICATION</h2>
+    <section class="container">
+        <form id="todo-form" class="new-task-container box" action="test.php">
+            <label for="new-task">Add New Task</label>
+            <input type="text" id="new-task" required />
+            <input type="submit" id="addTask" value="Add Task" />
+        </form>
+
+        <div class="todo-list box" id="todolist-ul">
+
+            <h2 id='test-text'>Incomming<span>Tasks</span> </h2>
+            <ul id="items">
+                <!-- <li class="item">
+                    <label for="task1"></label>
+                    <input type="checkbox" id="task1" /><label>Task Name</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox" /><label>Task Name</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox" /><label>Task Name</label>
+                </li> -->
+            </ul>
+        </div>
+        <!--/todo-list-->
+
+        <div class="complete-list box">
+            <h2 class="comlete-task" id='comlete-task'>Completed Tasks</h2>
+            <ul id="completed-container">
+                <!-- <li class="item">Task Name <button class="delete">Delete</button></li> -->
+            </ul>
+        </div>
+        <!--/complete-list-->
+    </section>
+    <!--/container-->
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
